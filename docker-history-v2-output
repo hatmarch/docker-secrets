@@ -1,0 +1,29 @@
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+6253ba986f81        8 minutes ago       |2 RHEL_pass=bar RHEL_user=foo                  3.19MB              
+58edf39453f8        8 minutes ago       /bin/sh -c #(nop)  USER jboss                   0B                  
+872571bc4d80        8 minutes ago       |2 RHEL_pass=bar RHEL_user=foo                  80.9kB              
+3a84cd4bc7c5        8 minutes ago       |2 RHEL_pass=bar RHEL_user=foo                  130MB               
+35018c078c7f        8 minutes ago       |2 RHEL_pass=bar RHEL_user=foo                  23.3MB              
+4f4873b88585        9 minutes ago       |2 RHEL_pass=bar RHEL_user=foo                  519MB               
+eee4d60fc8ba        10 minutes ago      /bin/sh -c #(nop)  USER root                    0B                  
+3caf7b838fca        10 minutes ago      /bin/sh -c #(nop)  ARG RHEL_pass                0B                  
+bd8758fa2a91        10 minutes ago      /bin/sh -c #(nop)  ARG RHEL_user                0B                  
+7f387fbf71f7        3 months ago        /bin/sh -c #(nop)  USER [jboss]                 0B                  
+<missing>           3 months ago        /bin/sh -c chown -R jboss /home/jboss/.m2       53B                 
+<missing>           3 months ago        /bin/sh -c yum install -y gcc zlib-devel zli…   220MB               
+<missing>           3 months ago        /bin/sh -c #(nop)  ENV MAVEN_OPTS=-Xmx4G -Xs…   0B                  
+<missing>           3 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/local/maven…   0B                  
+<missing>           3 months ago        /bin/sh -c curl -LO https://github.com/tekto…   46.5MB              
+<missing>           3 months ago        /bin/sh -c tar xzf /tmp/mvn.tar.gz && rm -rf…   10.7MB              
+<missing>           3 months ago        /bin/sh -c wget -O /tmp/mvn.tar.gz http://ap…   9.14MB              
+<missing>           3 months ago        /bin/sh -c ${GRAALVM_HOME}/bin/gu install na…   29.6MB              
+<missing>           3 months ago        /bin/sh -c #(nop)  ENV GRAALVM_HOME=/usr/loc…   0B                  
+<missing>           3 months ago        /bin/sh -c wget -O /tmp/graalvm.tar.gz https…   923MB               
+<missing>           3 months ago        /bin/sh -c wget -O /tmp/oc.tar.gz https://mi…   76.7MB              
+<missing>           3 months ago        /bin/sh -c chmod +x /usr/local/bin/odo          60.5MB              
+<missing>           3 months ago        /bin/sh -c sh -c 'curl -L https://mirror.ope…   60.5MB              
+<missing>           3 months ago        /bin/sh -c #(nop)  USER [root]                  0B                  
+<missing>           4 months ago        sleep 86400                                     606MB               
+<missing>           5 months ago                                                        743MB               
+<missing>           6 months ago                                                        3.55kB              
+<missing>           6 months ago                                                        208MB               Imported from -
