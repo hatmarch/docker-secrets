@@ -10,7 +10,7 @@ RUN yum update -y --skip-broken --allowerasing --nobest
 COPY ${HOST_SECRETS_DIR}/myuser_secret.txt /run/secrets/myuser.txt
 COPY ${HOST_SECRETS_DIR}/mypass_secret.txt /run/secrets/mypass.txt
 
-RUN echo subscription-manager register --username="$(cat /run/secrets/myuser.txt)" --password="$(cat /run/secrets/mypass.txt)" --auto-attach && \
+RUN subscription-manager register --username="$(cat /run/secrets/myuser.txt)" --password="$(cat /run/secrets/mypass.txt)" --auto-attach && \
     rm -r /run/secrets/my*.txt
 
 RUN yum install -y zsh
